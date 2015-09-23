@@ -1,0 +1,11 @@
+Package: NZelection
+Title: Data from New Zealand federal elections, 1996-2014
+Version: 0.1
+Authors@R: 'Christian Rubba <christian.rubba@gmail.com> [aut,cre]'
+Description: Data from New Zealand federal elections (1949-2013), including information on district-
+  and voting place level electoral results, splitvotes, candidates, electoral maps.
+Depends:
+  R (>= 3.1.0)
+License: CC0
+LazyData: true
+URL: http://github.com/crubba/NZelection
