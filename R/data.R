@@ -12,7 +12,7 @@
 #' \item{\code{per}}{the percentage of votes for the \code{party}}
 #' }
 #' @source \url{http://www.electionresults.govt.nz/}
-"nz_votes"
+"nze_votes"
 
 #' Candidate information.
 #'
@@ -35,15 +35,11 @@
 #' \item{\code{on_list}}{is candidate' name on the party list?}
 #' \item{\code{on_wk}}{does the candidate run in a district?}
 #' \item{\code{toplevel}}{did candidate obtain high-level political office?}
-#' \item{\code{mdl}}{was candidate member of a state parliament before?}
-#' \item{\code{mdb}}{was candidate member of the Bundestag before?}
 #' }
 #' @source Self compiled from various sources
-"nz_candidates"
+"nze_candidates"
 
 #' Joint distribution of candidate and party vote in New Zealand federal elections, 1996-2014
-#'
-#' Demographic and social information on Bundestag districts
 #'
 #' @format A data frame with nine variables:
 #' \describe{
@@ -58,7 +54,7 @@
 #'
 #' For further details, see \url{http://www.electionresults.govt.nz/}
 #'
-"nz_splitvotes"
+"nze_splitvotes"
 
 #' Polling place information.
 #'
@@ -74,4 +70,4 @@
 #' \item{\code{votes}}{the number of votes for the party at the polling place}
 #' }
 #' @source \url{http://www.electionresults.govt.nz/}
-"nz_pollingplaces"
+"nze_pollingplaces"
