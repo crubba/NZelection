@@ -1,4 +1,10 @@
 # -------------------
+CHANGES IN NZelection VERSION 0.5.0
+
+o Added complete list of parties that competed in the party tier of the 1999 election (nze_votes and nze_national)
+
+
+# -------------------
 CHANGES IN NZelection VERSION 0.4.0
 
 o Removed error in party name used in nze_votes
