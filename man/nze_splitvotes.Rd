@@ -3,7 +3,7 @@
 \docType{data}
 \name{nze_splitvotes}
 \alias{nze_splitvotes}
-\title{Joint distribution of candidate and party vote in New Zealand federal elections, 1996-2014}
+\title{Joint and conditional distributions of candidate and party vote in New Zealand federal elections, 1996-2014}
 \format{A data frame with nine variables:
 \describe{
 \item{\code{year}}{election year}
@@ -11,7 +11,9 @@
 \item{\code{cvote}}{the party of the candidate vote}
 \item{\code{pvote}}{the party of the party vote} 
 \item{\code{votes}}{the number of votes}
-\item{\code{per}}{percentage of votes}
+\item{\code{per_joint}}{the joint distribution (in \%) of party and candidate votes}
+\item{\code{per_bar_cvote}}{the conditional distribution party vote|candidate vote (in \%)}
+\item{\code{per_bar_pvote}}{the conditional distribution candidate vote|party vote (in \%)}
 }}
 \source{
 \url{http://www.electionresults.govt.nz/}

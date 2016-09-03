@@ -1,7 +1,15 @@
 # -------------------
+CHANGES IN NZelection VERSION 0.6.0
+
+o nze_splitvote now contains information on the joint and the two conditional vote distributions
+o Added electoral information for elections from 1905 (under plurality)
+
+
+# -------------------
 CHANGES IN NZelection VERSION 0.5.0
 
 o Added complete list of parties that competed in the party tier of the 1999 election (nze_votes and nze_national)
+
 
 
 # -------------------
