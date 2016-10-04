@@ -1,6 +1,6 @@
 #' Votes.
 #'
-#' Complete data on New Zealand federal elections from 1996 to 2014.
+#' Complete data on New Zealand federal elections from 1972 to 2014.
 #'
 #' @format A data frame with seve variables: 
 #' \describe{
@@ -12,6 +12,7 @@
 #' \item{\code{per}}{the percentage of votes for the \code{party}}
 #' }
 #' @source \url{http://www.electionresults.govt.nz/}
+#' @details In the elections up to 1996, the votes were registered under the "pvote" mandate
 "nze_votes"
 
 #' Candidate information.
